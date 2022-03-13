@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.Flex-div {
+	display: flex;
+  background-color: gainsboro;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+  border: 1px solid black;
+  flex-direction: row;
+  margin: 0px 20px;
+  align-items: center;
+}
+
+#flexBoxDiv,.Flex-div img:hover {
+  margin: 20px;
+  box-shadow: 0px 10px 50px rgba(53, 275, 98, 1);
+}
+.paper {
+  margin: 40px;
+}
+.rock {
+  margin: 40px;
+}
+.scissors {
+  margin: 40px;
+}
